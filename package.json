@@ -4,7 +4,7 @@
   "description": "jasmine parameter test using generics based on JP Castro's Jasmine Data Provider",
   "main": "./lib/jasmine-data-provider.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "jasmine-ts"
   },
   "keywords": [
     "Jasmine",
@@ -16,6 +16,9 @@
   "devDependencies": {
     "@types/jasmine": "^3.3.12",
     "jasmine": "^3.4.0",
-    "jasmine-reporters": "^2.3.2"
+    "jasmine-reporters": "^2.3.2",
+    "jasmine-ts": "^0.3.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.4.3"
   }
 }
