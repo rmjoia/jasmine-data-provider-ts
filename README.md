@@ -1,6 +1,6 @@
 # jasmine-data-provider-ts
 jasmine parameter test using generics based on JP Castro's Jasmine Data Provider 
-https://www.npmjs.com/package/jasmine-data-provider
+http://blog.jphpsf.com/2012/08/30/drying-up-your-javascript-jasmine-tests/
 
 
 # Installation
