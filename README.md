@@ -11,7 +11,7 @@ npm install jasmine-data-provider-ts
 # Usage with Array<T>
 ```TypeScript
 
-import {using} from 'jasmine-data-provider-ts'
+import {TestCase} from 'jasmine-data-provider-ts'
 
 describe('parameterised test', () => {
     TestCase<string>(['Almada', 'Lisboa', 'Cascais'], (value)=>{
