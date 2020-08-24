@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "test": "jasmine-ts",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
