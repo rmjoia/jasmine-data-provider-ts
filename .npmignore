@@ -1,2 +1,6 @@
-spec/*
+test/*
+tsconfig.json
+tslint.json
+.prettierrc
+.prettierignore
 *.tgz

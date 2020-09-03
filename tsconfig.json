@@ -1,15 +1,14 @@
 {
   "compilerOptions": {
+    "noImplicitAny": true,
     "declaration": true,
     "strictNullChecks": true,
-    "target": "es5", 
+    "target": "es5",
     "outDir": "dist",
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
-    "lib": ["es2015", "dom"],
-    "rootDir": "lib"
+    "types": ["jasmine"]
   },
-  "include": ["lib"],
   "exclude": ["node_modules", "dist"]
 }
