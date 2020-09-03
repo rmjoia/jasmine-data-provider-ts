@@ -1,4 +1,4 @@
-import { TestCase, TestSource } from "../lib/jasmine-data-provider";
+import { TestCase } from "../lib/jasmine-data-provider";
 
 describe("parameterised test using an Array<T> as source", () => {
   TestCase<string>(["Almada", "Lisboa", "Cascais"], value => {

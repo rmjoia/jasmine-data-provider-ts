@@ -1,4 +1,4 @@
-import { TestSource } from "../lib/jasmine-data-provider";
+import { TestSource } from '../lib/jasmine-data-provider';
 
 class SampleClass {
   constructor(public foo: any, public bar: any, public expected: string) {}
