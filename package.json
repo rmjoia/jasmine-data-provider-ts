@@ -1,5 +1,5 @@
 {
-  "name": "ts-jasmine-data-provider",
+  "name": "jasmine-data-provider-ts",
   "version": "1.4.0",
   "description": "jasmine parameter test using generics based on JP Castro's Jasmine Data Provider",
   "main": "./dist/jasmine-data-provider.js",
