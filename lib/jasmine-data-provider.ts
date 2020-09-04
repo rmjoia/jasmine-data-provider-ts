@@ -20,10 +20,7 @@ export function TestCase<T>(values: T[], func: (...params: T[]) => void) {
  * @returns void
  *
  */
-export function TestSource<T>(
-  values: () => T[],
-  func: (...params: T[]) => void
-) {
+export function TestSource<T>(values: () => T[], func: (...params: T[]) => void) {
   for (let i = 0, count = values().length; i < count; i++) {
     func.apply(Object, [values()[i]]);
   }
