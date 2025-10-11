@@ -1,7 +1,17 @@
 # jasmine-data-provider-ts
+
 jasmine parameter test using generics based on JP Castro's Jasmine Data Provider 
 http://blog.jphpsf.com/2012/08/30/drying-up-your-javascript-jasmine-tests/
 
+## Version 1.5.0 Update
+
+This package has been modernized with:
+- TypeScript 5.7
+- Jasmine 5.5
+- Modern testing infrastructure (no more browser-based Karma tests)
+- ESLint (replacing deprecated tslint)
+
+The API remains the same - existing tests will work without changes.
 
 # Installation
 ```
