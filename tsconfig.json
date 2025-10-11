@@ -3,15 +3,18 @@
     "noImplicitAny": true,
     "declaration": true,
     "strictNullChecks": true,
-    "target": "es5",
+    "target": "ES2015",
     "outDir": "dist",
     "module": "commonjs",
     "moduleResolution": "node",
     "sourceMap": true,
-    "lib": ["es2015", "dom"],
+    "lib": ["ES2015", "DOM"],
     "rootDir": "lib",
-    "types": ["jasmine"]
+    "types": ["jasmine"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true
   },
   "include": ["lib"],
-  "exclude": ["node_modules", "dist"]
+  "exclude": ["node_modules", "dist", "tests"]
 }
